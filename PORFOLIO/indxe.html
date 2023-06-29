@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINAY'S | PORTFOLIO</title>
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    
+
+</head>
+<body>
+   <!-- header section design -->
+    <header class="header">
+         <a href="" class="logo">Portfolio</a>
+            
+
+         <div class="nav-toggle">
+          <i class="ri-menu-line nav_burger"></i>
+          <i class="ri-close-line nav_close"></i>
+        </div>
+
+
+          <nav class="navbar">
+            <ul class="nav_list">
+                <li><a href="#home" class="navlinks active" onclick="refreshPage(this.id)"><b>HOME</b></a></li>
+                <li><a href="#about" class="navlinks" onclick="refreshPage(this.id)"><b>ABOUT ME</b></a></li>
+                <li><a href="#skills" class="navlinks" onclick="refreshPage(this.id)"><b>SKILLS</b></a></li>
+                <li><a href="#project" class="navlinks" onclick="refreshPage(this.id)"><b>PROJECTS</b></a></li>
+                <li><a href="#contact" class="navlinks" onclick="refreshPage(this.id)"><b>CONTACT</b></a></li>
+              </ul>
+          </nav>
+
+       
+          
+    </header>
+<!-- -------------------header code ends--------------------     -->
+
+
+<main>
+<!-- -------------------------------home setction code----------- -->
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Hello Everyone <span>Myself</span> </h3>
+    <h1>Vinay Sharma</h1>
+    <p>I am able to build frontend webiste and learning new skills day by day to improve myself</p>
+    <h3><span class="typed" id="element"></span></h3>
+     <div class="social-media">
+         <a href="https://www.instagram.com/heyitssvinay21/" target="_blank"><i class="ri-instagram-line"></i></a>
+         <a href="https://www.facebook.com/vinay.shrama.752" target="_blank"><i class="ri-facebook-fill"></i></a>
+         <a href="https://www.linkedin.com/in/vinay-sharma-463853271/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+         <a href="mailto:vs1180182@gmail.com?subject = Feedback&body = Message"> <i class="ri-mail-line"></i></a>
+         <a href="https://github.com/vsharma2003" target="_blank"><i class="ri-github-fill"></i></a>
+     </div>
+     <a href="" class="button">Download CV</a>
+  </div>
+
+  <div class="home-img">
+    <img src="profile-removebg-preview.png" alt="">
+  </div>
+</section>
+<!-- -------------------------------about setction code----------- -->
+
+<section class="about" id="about">
+    <div class="about-img">
+      <img src="profile2.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h3 class="heading">About <span>Me</span> </h3>
+      <h1>Frontend Developer</h1>
+      <p>Hello everyone myself Vinay Indrabali Sharma i am a Computer Engineering student currently in the 3rd year of my degree i am very passionate about development learning new skills and be best version i am looking for opportunities to work ass well ass learn    </p>
+    </div>
+</section>
+<!-- -------------------------------skills setction code----------- -->
+
+<section class="skills" id="skills">
+   <h2 class="heading">
+    SKILLS
+   </h2>
+   <div class="skill-container">
+      <div class="skill-box " id="skill-box">
+        <i class="ri-html5-fill"></i>
+        <h3 class="name">HTML</h3>
+        <p class="brief">Html is use to basically create the basuc structure of the website 
+          what to be written and what to be displayed</p>
+      </div> 
+
+      <div class="skill-box">
+        <i class="ri-css3-fill"></i>
+        <h3 class="name">CSS</h3>
+        <p class="brief">CSS is used to style the structure of the html code it also helps us to create various web views it enhances the website</p>
+      </div>
+
+      <div class="skill-box">
+        <i class="ri-javascript-fill"></i>
+        <h3 class="name">JAVA SCRIPT</h3>
+        <p class="brief">javascript is a scripting language which is used to add functionality 
+          to the websites it is the brain of the website</p>
+      </div>
+
+   </div>
+</section>
+<!-- -------------------------------projects  setction code----------- -->
+<section class="projects" id="project">
+    <h3 class="heading">PROJECTS</h3>
+    <div class="projects-container">
+      <div class="project-box">
+        <h1 >PORTFOLIO WEBSITE</h1>
+       
+          <a href="#"><i class="ri-links-line"></i></a>
+       
+      </div>
+      <div class="project-box">
+        <h1>TO DO APP</h1>
+       
+          <a href="https://github.com/vsharma2003/to-dolist-app" target="_blank"><i class="ri-links-line"></i></a>
+        
+      </div>
+      <div class="project-box">
+        <h1>TIMER</h1>
+        
+          <a href="#"><i class="ri-links-line"></i></a>
+       
+      </div>
+      <div class="project-box">
+          <h1>RESPONSIVE NAVBAR</h1>
+          <a href="https://github.com/vsharma2003/responsive-navbar" target="_blank"><i class="ri-links-line"></i></a>
+       
+      </div>
+      <div class="project-box">
+        <h1>SIGNUP PAGE</h1>
+       
+          <a href="https://github.com/vsharma2003/signup" target="_blank"><i class="ri-links-line"></i></a>
+        
+      </div>
+
+    </div>
+</section>
+<!-- -------------------------------projects  setction code----------- -->
+
+<section class="contact" id="contact">
+    <h3 class="heading">
+      contact <sapn> Me!</sapn>
+    </h3>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" name="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text"  placeholder="Email Subject">
+      </div>
+      <textarea name="" id="textarea" cols="30" rows="10" placeholder="your message"></textarea><br>
+      <input type="submit" value="send message" class="button2" id="button">
+    </form>
+</section>
+</main>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Frontend Developer'],
+          
+          typeSpeed: 80,
+        });
+      </script>
+    
+</body>
+</html>
+
+
+
+<!-- width:70%; height: 70%;padding: 0px;margin: 50px;border-radius: 8rem 8rem 8rem 8rem;" > -->
